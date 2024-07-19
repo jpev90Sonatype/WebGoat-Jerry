@@ -460,8 +460,8 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
+        <id>firewall-demo</id>
+        <url>http://localhost:8081/repository/firewall-demo/</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -469,8 +469,8 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
+      <id>firewall-demo</id>
+      <url>http://localhost:8081/repository/firewall-demo/</url>
     </pluginRepository>
   </pluginRepositories>
 
