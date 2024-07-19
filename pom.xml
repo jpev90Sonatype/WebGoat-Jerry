@@ -455,24 +455,24 @@
     </dependency>
   </dependencies>
 
-  <repositories>
+<repositories>
     <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-        <id>firewall-demo</id>
-        <url>http://localhost:8081/repository/firewall-demo/</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
       <id>firewall-demo</id>
       <url>http://localhost:8081/repository/firewall-demo/</url>
-    </pluginRepository>
-  </pluginRepositories>
+    </repository>
+</repositories>
+    <distributionManagement>
+    <repository>
+      <id>nexus</id>  
+      <name>WebGoat Releases</name>
+      <url>http://localhost:8081/repository/webgoat-releases/</url>
+    </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>maven-snapshots-demo</name>
+            <url>http://localhost:8081/repository/maven-snapshot-demo/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
   <build>
     <plugins>
