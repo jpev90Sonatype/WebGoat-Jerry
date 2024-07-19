@@ -461,7 +461,7 @@
         <enabled>false</enabled>
       </snapshots>
       <id>firewall-demo</id>
-      <url>http://localhost:8081/repository/firewall-demo/</url>
+      <url>http://localhost:8081/repository/test-firewall/</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -470,7 +470,7 @@
         <enabled>false</enabled>
       </snapshots>
       <id>firewall-demo</id>
-      <url>http://localhost:8081/repository/firewall-demo/</url>
+      <url>http://localhost:8081/repository/test-firewall/</url>
     </pluginRepository>
   </pluginRepositories>
 
